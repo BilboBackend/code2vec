@@ -9,9 +9,3 @@ dependencies = [
     "tensorflow>=2.0.0b1",
 ]
 
-[build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools.packages.find]
-where = ["src"]
